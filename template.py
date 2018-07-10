@@ -45,6 +45,7 @@ X = onehotencoder.fit_transform(X).toarray()
 '''
 since the value of y is already numeric
 we only need label encoder
+a one-hot encoding of y labels should use a LabelBinarizer instead.
 '''
 labelencoder_y = LabelEncoder()    
 y = labelencoder_y.fit_transform(y)
