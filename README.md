@@ -1,2 +1,2 @@
-# Data_preprocessing
-templates for data preprocessing
+# Data Preprocessing
+A template that can be used to prepare data for a model in sklearn.
